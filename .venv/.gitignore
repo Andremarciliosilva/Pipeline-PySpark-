@@ -1,0 +1,97 @@
+# created by virtualenv automatically
+# ==============================
+# Python
+# ==============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Poetry
+poetry.lock
+
+# ==============================
+# PySpark / Spark
+# ==============================
+# Spark local logs & temp
+spark-warehouse/
+metastore_db/
+derby.log
+
+# Spark event logs
+spark-events/
+*.log
+
+# ==============================
+# Data files
+# ==============================
+# Raw / generated data
+*.csv
+*.parquet
+*.avro
+*.orc
+
+
+# ==============================
+# Database
+# ==============================
+*.db
+*.sqlite
+*.sqlite3
+
+# ==============================
+# OS / IDE
+# ==============================
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+!.vscode/settings.json
+
+# PyCharm
+.idea/
+
+# ==============================
+# Jupyter
+# ==============================
+.ipynb_checkpoints/
+
+# ==============================
+# Env / Secrets
+# ==============================
+.env
+.env.*
+*.pem
+*.key
+
+# ==============================
+# Build / cache
+# ==============================
+dist/
+build/
+*.egg-info/
+
+# ==============================
+# Logs
+# ==============================
+logs/
+*.out
+
+# ==============================
+# Tests
+# ==============================
+.coverage
+htmlcov/
+.pytest_cache/
+
+# ==============================
+# Misc
+# ==============================
+.tmp/
+temp/
