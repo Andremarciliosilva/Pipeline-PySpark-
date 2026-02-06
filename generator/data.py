@@ -7,7 +7,7 @@ import shutil
 import glob
 fake = Faker('pt_BR')
 
-spark = SparkSession.builder.appName("DictToCSV").getOrCreate()
+spark = SparkSession.builder.appName("GenerateData").getOrCreate()
 
 # Gerar dados de clientes
 
@@ -137,7 +137,7 @@ def generate_transaction_data(num_transactions):
     return transactions
 
 # Gerar contratos de credito, para os contratos de crédito, o valor total é definido com base no tipo de crédito, 
-# para deixar os dados mais realistas,
+# para deixar os dados mais realistas.
 
 def generate_credit_contract_data(num_contracts):
     contracts = []
