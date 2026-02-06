@@ -12,7 +12,7 @@ renomeando-os de forma mais clara e removendo os arquivos temporários.
 '''
 
 def main():
-    print("🚀 Gerando dados bancários fake...")
+    print("Gerando dados bancários fake...")
 
     data.save_df_to_csv(
         data.generate_client_data(NUM_REGISTROS),
@@ -49,7 +49,7 @@ def main():
         final_path=RAW_PATH
     )
 
-    print("✅ Dados gerados com sucesso!")
+    print("Dados gerados com sucesso!")
 
 
 # “Uso if __name__ == "__main__" para garantir que o script execute apenas 
